@@ -98,5 +98,78 @@ main {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+    text-align: center;
+}
+.about-detels {
+    display: flex;
+    justify-content: space-around;
+}
+.about-Con {
+    text-align: center;
+}
+.info-title {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+.info-des {
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.expe {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.ex-hedi {
+    text-align: center;
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+}
+.exp-dete {
+    text-align: center;
+    margin-top: 30px;
+    color: #757575;
+}
+.my-learn {
+    margin-top: 50px;
+    margin: 0 160px;
+}
+.JavaScript {
+    width: 265px;
+
+}
+.js-img {
+    width: 44px;
+    height: 44px;
+}
+.hedline {
+    margin-top: 30px;
+    color: #181818;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.detels {
+    margin-top: 20px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+.React {
+
+}
+.Node-js {
+
+}
+.MongoDB {
 
 }
