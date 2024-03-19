@@ -5,80 +5,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style/portfolio.css">
+    <script src="https://kit.fontawesome.com/8e0855adba.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
         <nav>
-            <h2 class="nav-title">Rak<span class="p-color">i</span>b</h2>
-                <ul>
-                    <li>Portfolio</li>
-                    <li>Blogs</li>
-                    <li><button class="btn-p">Hire</button></li>
-                </ul>
+            <h3 class="nav-title">Rak<span class="text-primary">i</span>b</h3>
+            <ul>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><button class="btn-primary">Hire Me</button></li>
+            </ul>
         </nav>
         <!-- header banner -->
         <div class="banner">
-            <div class="">
-                <h3 class="b-st">Hi, I  am</h3>
-                <h1 class="b-title">Rakib Hossain</h1>
-                <p class="b-ds">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
-                <button class="btn-p">Download CV</button>
-                <button class="btn2">Contact</button>
+            <div class="banner-content">
+                <h3 class="banner-sub-title">Hi, I  am</h3>
+                <h1 class="banner-title">Rakib Hossain</h1>
+                <p class="banner-description">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
+                <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
+                <button class="btn2"><i class="fa-solid fa-phone"></i> Contact</button>
             </div>
-            <img src="images/hardy.png">
+            <img src="images/home.png">
         </div>
     </header>
     <main>
         <section class="about">
-            <h3 class="s-t">About Me</h3>
-            <p class="s-d">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.</p>
-            <div class="about-detels">
-                <div class="about-Con">
+            <h3 class="section-title">About Me</h3>
+            <p class="section-description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.</p>
+            <div class="about-info-container">
+                <div class="about-info">
                     <h4 class="info-title">Name:</h4>
-                    <p class="info-des">Rakib Hossain</p>
-                </div>
-                <div class="about-Con">
+                    <p class="info-description">Rakib Hossain</p>
+                </div>info
+                <div class="about-info">
                     <h4 class="info-title">Email:</h4>
-                    <p class="info-des">rakibulhasanmd678@gmail.com</p>
+                    <p class="info-description">rakibulhasanmd678@gmail.com</p>
                 </div>
-                <div class="about-Con">
+                <div class="about-info">
                     <h4 class="info-title">Date of birth:</h4>
-                    <p class="info-des">13 June 2004</p>
+                    <p class="info-description">13 June 2004</p>
                 </div>
-                <div class="about-Con">
+                <div class="about-info">
                     <h4 class="info-title">From:</h4>
-                    <p class="info-des">Shibchar</p>
+                    <p class="info-description">Shibchar</p>
                 </div>
             </div>
             
         </section>
-        <section>
-            <div class="expe">
-                <h3 class="ex-hedi">What I do</h3>
-                <div class="exp-dete">
-                    <p>I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
+        <section class="what-i-do">
+            <h3 class="section-title">What I Do</h3>
+
+            <p class="section-description">I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
+            
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="images/icons/js.png" alt="">
+                    <p class="skill-title">Vanilla JavaScript</p>
+                    <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi mollitia ipsa obcaecati ratione veritatis quibusdam.</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/react.png" alt="">
+                    <p class="skill-title">React</p>
+                    <p class="skill-description">Similique tenetur doloribus optio nulla adipisci modi, ullam repellendus, neque placeat aliquid eum nesciunt. Soluta.</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/nodejs.png" alt="">
+                    <p class="skill-title">Node.js</p>
+                    <p class="skill-description">Illo ratione voluptas, amet aperiam enim molestias praesentium quia iure exercitationem, cupiditate quos cum ipsam!</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/mongo.png" alt="">
+                    <p class="skill-title">MongoDB</p>
+                    <p class="skill-description">Beatae distinctio ab rem alias maxime optio ullam laboriosam excepturi, corporis harum hic nisi reprehenderit?</p>
                 </div>
             </div>
         </section>
-        <section class="my-learn">
-            <div class="JavaScript">
-                <img class="js-img" src="images/icons/js.png" alt="">
-                <h3 class="hedline">Vanilla JavaScript</h3>
-                <p class="detels">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-            </div>
-            <div class="React">
 
-            </div>
-            <div class="Node-js">
+        <section class="resume">
+            <h3 class="section-title">A summary of My Resume</h3>
+            <div class="resume-content">
+                <div class="resume-half">
+                    <h3 class="resume-title">My Education</h3>
+                    <div class="resume-item">
+                        <h4 class="title">Master in Computer Engineering</h4>
+                        <h5 class="sub-title">Harvard University / 2015 - 2017</h5>
+                        <p class="description">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4 class="title">Master in Computer Engineering</h4>
+                        <h5 class="sub-title">Harvard University / 2015 - 2017</h5>
+                        <p class="description">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4 class="title">Master in Computer Engineering</h4>
+                        <h5 class="sub-title">Harvard University / 2015 - 2017</h5>
+                        <p class="description">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                </div>
 
+                <div class="resume-half">
+                    <h3 class="resume-title">My Experience</h3>
+                    <div class="resume-item">
+                        <h4 class="title">Sr. Font End Developer</h4>
+                        <h5 class="sub-title">Apple Inc / 2020 - Current</h5>
+                        <p class="description">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4 class="title">Sr. Font End Developer</h4>
+                        <h5 class="sub-title">Apple Inc / 2020 - Current</h5>
+                        <p class="description">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4 class="title">Sr. Font End Developer</h4>
+                        <h5 class="sub-title">Apple Inc / 2020 - Current</h5>
+                        <p class="description">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                </div>
             </div>
-            <div class="MongoDB">
-
+            <div class="resume-button">
+                <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
             </div>
         </section>
     </main>
     <footer>
-
+        <div class="footer-column">
+                <h3 class="section-title">Lets Connect</h3>
+                <p class="section-description">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+            
+                <div class="social-links">
+                    <a href=""><img src="images/icons/facebook.png" alt=""></a>
+                    <a href=""><img src="images/icons/twitter.png" alt=""></a>
+                    <a href=""><img src="images/icons/insta.png" alt=""></a>
+                </div>
+            </div>
+                <div class="footer-column">
+                    <h3 class="section-title">Let’s Message me</h3>
+                    <form class="contact" action="">
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Your Email">
+                        <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                        <input type="submit" class="btn-primary" value="Submit">
+                    </form>
+                </div>
+        
     </footer>
 </body>
 </html>

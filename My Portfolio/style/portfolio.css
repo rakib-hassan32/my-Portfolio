@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-*{  
+body {  
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+}
+.text-primary {
+    color: #FD6E0A;
 }
 .header {
     margin: 0;
@@ -11,7 +14,7 @@
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
-.btn-p {
+.btn-primary {
     font-weight: 700;
     border: 0;
     padding: 18px 35px;
@@ -24,44 +27,49 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    align-items: center;
+    margin: 0 200px;
+}
+nav a {
+    text-decoration: none;
+    color: #474747;
 }
 nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav ul {
+nav > ul {
     display: flex;
     align-items: center;
 }
 .nav-title {
+    color: #181818;
     font-weight: 800;
     font-size: 45px;
 }
-.p-color {
-    color: #FD6E0A;
-}
+
 .banner {
-    margin: 0 0 0 200px;
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.b-st {
+.banner-content {
+    max-width: 500px;
+}
+.banner-sub-title {
     font-weight: 600;
     font-size: 45px;
     color: #474747;
 }
-.b-title {
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     color: #181818;
     margin-top: 5px;
 }
-img {
-    height: 676px;
-    width: 584px;
-}
-.b-ds {
+
+.banner-description {
     color: #757575;
     font-size: 18px;
     margin-top: 20px;
@@ -88,23 +96,23 @@ main {
     padding: 130px 156px;
     background: #FFF8F3;
 }
-.s-t {
+.section-title {
     text-align: center;
     margin-bottom: 30px;
     font-size: 35px;
     color: #181818;
 }
-.s-d {
+.section-description {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
     text-align: center;
 }
-.about-detels {
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-Con {
+.about-info {
     text-align: center;
 }
 .info-title {
@@ -113,9 +121,9 @@ main {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
 }
-.info-des {
+.info-description {
     color: var(--Dark-02, #474747);
     font-family: "Open Sans";
     font-size: 20px;
@@ -123,53 +131,84 @@ main {
     font-weight: 700;
     line-height: 30px;
 }
-.expe {
-    max-width: 900px;
-    margin: 0 auto;
+.what-i-do {
     margin-top: 130px;
 }
-.ex-hedi {
-    text-align: center;
-    font-size: 35px;
-    color: #181818;
-    font-weight: 700;
+.skills-container {
+    display: flex;
+    gap: 24px;
 }
-.exp-dete {
-    text-align: center;
-    margin-top: 30px;
-    color: #757575;
+.skill {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
 }
-.my-learn {
-    margin-top: 50px;
-    margin: 0 160px;
-}
-.JavaScript {
-    width: 265px;
-
-}
-.js-img {
-    width: 44px;
-    height: 44px;
-}
-.hedline {
-    margin-top: 30px;
-    color: #181818;
-    text-align: center;
+.skill-title {
     font-size: 20px;
     font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
-.detels {
-    margin-top: 20px;
+.skill-description {
+    font-size: 16px;
+    color: #757575;
+}
+.resume {
+    margin-top: 130px;
+
+}
+.resume-content {
+    margin-top: 110px;
+    display: flex;
+    gap: 24px;
+}
+.resume-item {
+    margin-top: 30px;
+    border-bottom: 1px solid #D1D1D1;
+}
+.resume .title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume .sub-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume .description {
     color: #757575;
     font-size: 16px;
-    font-weight: 400;
+    margin-bottom: 30px;
 }
-.React {
-
+.resume-button {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 110px;
 }
-.Node-js {
-
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    
 }
-.MongoDB {
-
+.footer-column {
+    width: 50%;
+}
+.social-links a {
+    margin: 25px;
+}
+.contact input[type="text"], .contact input[type="email"], textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 0;
+    width: 100%;
 }
